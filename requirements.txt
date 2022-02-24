@@ -1,0 +1,9 @@
+# Django==3.2.4
+Django
+mysqlclient
+django-environ
+# Django rest Framework
+djangorestframework
+djongo
+markdown
+django-filter

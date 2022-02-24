@@ -1,0 +1,20 @@
+/**
+    Apartado global para estilos en todo el proyecto Front
+
+    ====== TIPOGRAFIA ======
+    Para saber como usar tipografias en scss puedes mirar el siguiente enlace para hacerte una idea
+    https://cybmeta.com/font-face-como-utilizar-cualquier-fuentetipografia-en-tu-web
+
+    Para entender su uso en scss en cuanto a imports este enlace ayuda
+    https://discourse.roots.io/t/cant-get-build-production-to-work-with-ibm-plex-font/15615/4
+
+**/
+
+$font-prefix: "~@ibm/plex";
+@import "~@ibm/plex/scss/sans/index";
+
+* {
+    font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 450;
+}
+
