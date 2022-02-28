@@ -1,4 +1,3 @@
-
 #! /bin/ash
 
 ACCESS_LOG=/var/log/nginx/access.log;

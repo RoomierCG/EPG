@@ -98,7 +98,7 @@ DATABASES = {
         'PASSWORD': env('PASSWORD'),
         'default-character-set': 'utf8',
         'TEST': {
-            'NAME': 'test_django_blockeniza_db',
+            'NAME': 'test_django_db',
         },
     }
 }
