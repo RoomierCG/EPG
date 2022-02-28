@@ -14,7 +14,7 @@ services:
     build:
       context: ./
       dockerfile: ./.docker/django/Dockerfile
-    command: python manage.py runserver 0.0.0.0:8000
+    command: ash -c 'sleep 4 && python manage.py runserver 0.0.0.0:8000'
     volumes:
       - ./:/opt
     restart: unless-stopped
