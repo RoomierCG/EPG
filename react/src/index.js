@@ -5,12 +5,15 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "./components/app";
 import "../static/styles/main.scss"
 
+const rootElement = document.getElementById("root");
+
 ReactDOM.render(
+  
     <Router>
         <App>
-          Cargando
+          Cargando...
         </App>
     </Router>,
-    document.getElementById("root")
+    rootElement
 );
   
